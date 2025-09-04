@@ -9,8 +9,8 @@ int main(){
     printf("le nombre premier de 1 ==> %d est :\n", n);
     for(int N = 2 ; N <= n ; N++){
         int est_pr = 1;
-    for(int i = 2 ; i <= sqrt(N) ; i++){
-            if (N % i == 0){
+    for(int div = 2 ; div <= sqrt(N) ; div++){
+            if (N % div == 0){
             est_pr = 0;
             break;
             }
