@@ -3,23 +3,31 @@
 
 int main()
 {
-    char mot[]="math" ;
+    char mot[]="" ;
     char mot_cache[sizeof(mot)] ;
     printf("Entrer un mot : ");
-    scanf("%s",&mot);
+    scanf("%s\n",mot);
     for(int i = 0 ; i<= sizeof(mot)-1;i++){
     mot_cache[i] = '_' ;
 
 }
+    mot_cache[sizeof(mot)-1]='\0';
     printf("%s\n",mot_cache);
     printf("%s\n",mot);
-    char litr ;
+    char litr;
+    int trouv=0;
     printf("Entrer une litre : ");
     scanf("%c",&litr);
-    if(litr==mot_cache)
-        printf("dans le mot cache");
+    for(int i=0;i<=sizeof(mot)-1;i++ ){
+    if(mot[i]==litr){
+        mot_cache[i]='litr';
+        trouv=1;
+    }
+    }
+    if(mot_cache)
+        printf("bon reponse");
     else
-        printf("game over");
+        printf("Mauvaise reponse");
 
 
 
