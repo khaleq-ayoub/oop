@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1757522860 source:c:\users\pc\documents\project n1\nouveau dossier\les chaine de caracter\ex10 chaine\ex10 char\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
