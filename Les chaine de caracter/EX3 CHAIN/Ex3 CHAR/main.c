@@ -12,9 +12,6 @@ int main()
     scanf("%s",&T2);
     strcat(T1 , T2);
     printf("le texte sera : %s\n",T1);
-<<<<<<< HEAD
 
-=======
->>>>>>> 67a7981928c7b4953dbddcdc16175fc005e11abc
     return 0;
 }
