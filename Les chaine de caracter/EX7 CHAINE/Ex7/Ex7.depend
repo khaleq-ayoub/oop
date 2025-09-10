@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1757518736 source:c:\users\pc\documents\project n1\nouveau dossier\les chaine de caracter\ex7 chaine\ex7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
