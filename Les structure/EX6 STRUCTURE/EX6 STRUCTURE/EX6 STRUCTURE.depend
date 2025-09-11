@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1757596816 source:c:\users\pc\documents\project n1\nouveau dossier\les structure\ex6 structure\ex6 structure\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
