@@ -64,7 +64,7 @@ int main()
     for(int i=0 ;i<nb_etudiant ;i++){
     for(int j=0 ;j<nb_cours ;j++){
     printf("les information de l etudaint \n");
-    printf("les information de l'etudiant %d :ID : %d \tNom complet: %s %s age= %d ans . Le nom de cours %d est %s son code est %s avec nombre de credit egal a %d , j ais obtenue la note %.2f dans ce cours  \n",i+1,e[i].ID,e[i].nom,e[i].prenom,e[i].age,j+1,e[i].co[j].nom,e[i].co[j].code,e[i].co[j].credit,e[i].co[j].note);
+    printf("les information de l'etudiant %d \t ID : %d \tNom complet: %s %s \t age= %d ans .\n Le nom de cours %d est %s son code est %s avec nombre de credit egal a %d .\n j ais obtenue la note %.2f dans ce cours  \n",i+1,e[i].ID,e[i].nom,e[i].prenom,e[i].age,j+1,e[i].co[j].nom,e[i].co[j].code,e[i].co[j].credit,e[i].co[j].note);
 
        }
        printf("la moyenne des notes est ;%.2f ", e[i].moyenne );
