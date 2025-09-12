@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1757675235 source:c:\users\pc\documents\project n1\nouveau dossier\les structure\mini projet\mini projrt\main.c
+1757682544 source:c:\users\pc\documents\project n1\nouveau dossier\les structure\mini projet\mini projrt\main.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
 

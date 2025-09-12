@@ -15,7 +15,7 @@ typedef struct{
     float moyenne;
     cours co[10];
 }etudiant ;
-void information( etudiant e[] , int nb_etudiant , int nb_cours){
+void information( etudiant e[300] , int nb_etudiant , int nb_cours){
 
 
 
@@ -55,15 +55,16 @@ int main()
     int i ;
     int nb_etudiant;
     int nb_cours;
-    information(e, nb_etudiant, nb_cours);
+
     printf("Enter le nombre d'etudiant : ");
     scanf("%d",&nb_etudiant);
     printf("Enter le nombre de cours : ");
     scanf("%d",&nb_cours);
+    information(e, nb_etudiant, nb_cours);
     for(int i=0 ;i<nb_etudiant ;i++){
     for(int j=0 ;j<nb_cours ;j++){
     printf("les information de l etudaint \n");
-    printf("les information de l'etudiant %d :ID : %d \tNom complet: %s,%s age= %d ans . Le nom de cours %d est %s son code est %s avec nombre de credit egal a %d , j ais obtenue la note %.2f dans ce cours  ",i+1,e[i].ID,e[i].nom,e[i].prenom,e[i].age,j+1,e[i].co[j].nom,e[i].co[j].code,e[i].co[j].credit,e[i].co[j].note);
+    printf("les information de l'etudiant %d :ID : %d \tNom complet: %s %s age= %d ans . Le nom de cours %d est %s son code est %s avec nombre de credit egal a %d , j ais obtenue la note %.2f dans ce cours  \n",i+1,e[i].ID,e[i].nom,e[i].prenom,e[i].age,j+1,e[i].co[j].nom,e[i].co[j].code,e[i].co[j].credit,e[i].co[j].note);
 
        }
        printf("la moyenne des notes est ;%.2f ", e[i].moyenne );
